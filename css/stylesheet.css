@@ -1,12 +1,15 @@
-#top {
-    background-color: aqua;
-    justify-content: center;
-    margin: auto;
+body {
+    display: flex;
+    flex-direction: column;
 }
 
-#personalPhoto {
-    width: 500px;
-    height: 300px;
-    margin: auto;
+#profilephoto {
+    width: 20%;
+    height: 20%;
+}
 
+header {
+    text-align: center;
+    justify-content: center;
+    background-color: aqua;
 }
